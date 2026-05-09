@@ -2,7 +2,10 @@
 
 A comprehensive, frontend-only AI Career Intelligence Platform built to help professionals transition careers, optimize their resumes, and prepare for interviews using lightweight, local NLP and Puter.js for cloud persistence.
 
-![Hero Image](image_placeholder_hero.png) <!-- Add your Hero screenshot here -->
+<img width="3780" height="1835" alt="Screenshot 2026-05-08 011849" src="https://github.com/user-attachments/assets/7bc9004d-9127-46ca-af6d-72523fde4990" />
+
+<img width="3630" height="1710" alt="Screenshot 2026-05-08 011913" src="https://github.com/user-attachments/assets/4da10c58-d6f6-43cd-a615-15390d18521d" />
+
 
 ## 🌟 Features
 
@@ -21,16 +24,15 @@ A comprehensive, frontend-only AI Career Intelligence Platform built to help pro
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](image_placeholder_dashboard.png) <!-- Add your Dashboard screenshot here -->
+<img width="3780" height="1835" alt="Screenshot 2026-05-08 011849" src="https://github.com/user-attachments/assets/324049a8-8544-4d37-8ca6-2e7789d02fe2" />
+
 
 ### ATS Analysis & Skill Gap
-![ATS and Skill Gap](image_placeholder_ats_skills.png) <!-- Add your ATS/Skill Gap screenshot here -->
+<img width="2242" height="1780" alt="Screenshot 2026-05-08 012000" src="https://github.com/user-attachments/assets/019d7787-0b39-4963-9b12-8b1c5769fff2" />
 
-### Career Roadmap
-![Career Roadmap](image_placeholder_roadmap.png) <!-- Add your Career Roadmap screenshot here -->
 
 ### AI Mentor & Interview Prep
-![AI Mentor](image_placeholder_mentor.png) <!-- Add your Mentor/Interview screenshot here -->
+<img width="3015" height="1807" alt="Screenshot 2026-05-08 041700" src="https://github.com/user-attachments/assets/8e250dfa-2299-44f6-8d43-5316854b664c" />
 
 ## 🏗️ System Architecture
 
