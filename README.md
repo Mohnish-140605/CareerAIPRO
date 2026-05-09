@@ -9,19 +9,19 @@ A comprehensive, frontend-only AI Career Intelligence Platform built to help pro
 
 ## 🌟 Features
 
-*   **📊 Dashboard:** A centralized hub to view your overall career transition progress, ATS scores, and saved insights.
-*   **🎯 ATS Score Analysis:** Analyzes your resume against target roles to give you an actionable ATS compatibility score.
-*   **🧩 Skill Gap Identification:** Highlights missing skills required for your target domain.
-*   **💼 Job Match Analysis:** Matches your profile with real-world job roles using semantic NLP matching.
-*   **🗺️ Career Roadmap:** Generates dynamic, domain-aware career transition roadmaps with time estimates and actionable milestones.
-*   **📝 Resume Improve:** Provides intelligent, line-by-line suggestions to enhance your resume's impact.
-*   **💬 AI Mentor:** A conversational AI assistant to answer your career-related questions and provide guidance.
-*   **🎤 Interview Prep:** Interactive interview preparation with role-specific questions and feedback.
-*   **💻 GitHub Analyzer:** Analyzes your open-source contributions and repository quality.
-*   **🔗 LinkedIn Pro:** Optimizes your LinkedIn profile for maximum visibility to recruiters.
-*   **✨ Personal Branding:** Helps you build a compelling professional brand and narrative.
+*   **Dashboard:** A centralized hub to view your overall career transition progress, ATS scores, and saved insights.
+*   **ATS Score Analysis:** Analyzes your resume against target roles to give you an actionable ATS compatibility score.
+*   **Skill Gap Identification:** Highlights missing skills required for your target domain.
+*   **Job Match Analysis:** Matches your profile with real-world job roles using semantic NLP matching.
+*   **Career Roadmap:** Generates dynamic, domain-aware career transition roadmaps with time estimates and actionable milestones.
+*   **Resume Improve:** Provides intelligent, line-by-line suggestions to enhance your resume's impact.
+*   **AI Mentor:** A conversational AI assistant to answer your career-related questions and provide guidance.
+*   **Interview Prep:** Interactive interview preparation with role-specific questions and feedback.
+*   **GitHub Analyzer:** Analyzes your open-source contributions and repository quality.
+*   **LinkedIn Pro:** Optimizes your LinkedIn profile for maximum visibility to recruiters.
+*   **Personal Branding:** Helps you build a compelling professional brand and narrative.
 
-## 📸 Screenshots
+## Screenshots
 
 ### Dashboard
 <img width="3780" height="1835" alt="Screenshot 2026-05-08 011849" src="https://github.com/user-attachments/assets/324049a8-8544-4d37-8ca6-2e7789d02fe2" />
@@ -34,7 +34,7 @@ A comprehensive, frontend-only AI Career Intelligence Platform built to help pro
 ### AI Mentor & Interview Prep
 <img width="3015" height="1807" alt="Screenshot 2026-05-08 041700" src="https://github.com/user-attachments/assets/8e250dfa-2299-44f6-8d43-5316854b664c" />
 
-## 🏗️ System Architecture
+## System Architecture
 
 CareerAI Pro is built with a **100% Client-Side Architecture**, ensuring low complexity, high performance, and zero reliance on paid external backends or APIs. 
 
@@ -55,7 +55,7 @@ graph TD
     A -->|State Management| G[React Context API]
 ```
 
-## 🚀 How the App Works
+## How the App Works
 
 1.  **Authentication:** Users sign in using the Puter.js integration, which securely manages sessions without requiring a dedicated backend server.
 2.  **Data Ingestion:** Users input their current resume (text format) and target job role/domain.
@@ -84,5 +84,5 @@ graph TD
     ```
     The app will be available at `http://localhost:3000`.
 
-## 📄 License
+## License
 MIT License
