@@ -34,6 +34,9 @@ A comprehensive, frontend-only AI Career Intelligence Platform built to help pro
 ### AI Mentor & Interview Prep
 <img width="3015" height="1807" alt="Screenshot 2026-05-08 041700" src="https://github.com/user-attachments/assets/8e250dfa-2299-44f6-8d43-5316854b664c" />
 
+### Job results by local web scraping from naukri
+<img width="3040" height="1752" alt="Screenshot 2026-05-08 054256" src="https://github.com/user-attachments/assets/d9e264aa-8187-4640-80ae-685aba323e92" />
+
 ## System Architecture
 
 CareerAI Pro is built with a **100% Client-Side Architecture**, ensuring low complexity, high performance, and zero reliance on paid external backends or APIs. 
