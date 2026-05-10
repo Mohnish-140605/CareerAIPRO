@@ -30,6 +30,42 @@ A comprehensive, frontend-only AI Career Intelligence Platform built to help pro
 ### ATS Analysis & Skill Gap
 <img width="2242" height="1780" alt="Screenshot 2026-05-08 012000" src="https://github.com/user-attachments/assets/019d7787-0b39-4963-9b12-8b1c5769fff2" />
 
+### ATS Score Weight Distribution
+
+The CareerAI Pro ATS engine calculates a comprehensive score out of 100 based on a multi-factor analysis. The weights are distributed to prioritize semantic matching and structural completeness, closely mimicking real-world parsing systems.
+
+The formula distributes the weights across 6 distinct categories:
+
+1. **Keyword Match Score (30%)**
+   - Calculates the ratio of target domain keywords found in the resume versus missing keywords. Prioritizes context and industry-specific terminology.
+   
+2. **Section Completeness (20%)**
+   - Checks for the presence of standard resume sections (e.g., Contact Information, Professional Summary, Skills, Experience, Education, Projects). 
+
+3. **Formatting Score (15%)**
+   - Evaluates the scannability of the document. Rewards appropriate use of bullet points and ideal line lengths. Penalizes hard-to-parse structures like HTML tables or embedded images.
+
+4. **Skill Depth (15%)**
+   - A quantitative measure of technical proficiency. Awards points based on the absolute volume of extracted skills and certifications.
+
+5. **Experience Relevance (10%)**
+   - Looks at the depth of professional background, adding points for total years of experience, current job roles, and documented project work.
+
+6. **Readability & Impact (10%)**
+   - Analyzes the stylistic quality of the text. Rewards the use of strong action verbs (e.g., "orchestrated", "spearheaded") and quantifiable metrics (%, $, numbers). Penalizes weak or passive phrases (e.g., "responsible for", "assisted in").
+
+**Algorithmic Calculation Code:**
+```javascript
+const totalScore = Math.round(
+  (keywordScore * 0.30) +
+  (sectionScore * 0.20) +
+  (formattingScore * 0.15) +
+  (skillScore * 0.15) +
+  (experienceScore * 0.10) +
+  (readabilityScore * 0.10)
+);
+
+
 
 ### AI Mentor & Interview Prep
 <img width="3015" height="1807" alt="Screenshot 2026-05-08 041700" src="https://github.com/user-attachments/assets/8e250dfa-2299-44f6-8d43-5316854b664c" />
